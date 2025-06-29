@@ -1,0 +1,28 @@
+.container {
+  padding-top: 4rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.muted-button {
+  color: #ef4444;
+  margin-right: 1rem;
+}
+.list {
+  padding-top: 1.25rem;
+}
+.list > * + * {
+  margin-top: 1rem;
+}
+
+@media (min-width: 640px) {
+  .card {
+    flex-direction: row;
+  }
+}

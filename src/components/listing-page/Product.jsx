@@ -33,8 +33,8 @@ export function Product({ item }) {
     <Card className={classes.card}>
       <TooltipTrigger onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} />
       <Tooltip item={item} isShown={showTooltip} isLeft={isLeft} />
-      <ProductImage imageSrc={item.imageUrl} alt={`${item.description}`} />
-      <ProductInfo attributes={[item.name, price]} />
+      <ProductImage id={item.id} imageSrc={item.imageUrl} alt={item.description} />
+      <ProductInfo id={item.id} name={item.name} price={price} />
       <Button className={classes.button} onClick={() => addToCart(item)}>
         Add to Cart
       </Button>

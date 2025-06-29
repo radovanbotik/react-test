@@ -1,0 +1,18 @@
+.name {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.01562em;
+  color: #111827;
+}
+.price {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.01562em;
+  color: #111827;
+}
+.description {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #374151;
+}
