@@ -1,5 +1,4 @@
 import { createContext, useContext, useLayoutEffect, useRef, useState } from "react";
-// import toast from "react-hot-toast";
 
 const cartContext = createContext(null);
 
@@ -22,14 +21,12 @@ export function CartProvider({ children }) {
         return [...prev, { ...item, count: 1 }];
       }
     });
-    // toast.success(`${item.name} was added to your shopping cart.`);
   }
 
   function destroyCartItem(item) {
     setCartItems(prev => {
       return prev.filter(i => i.id !== item.id);
     });
-    // toast.success(`${item.name} was removed from your shopping cart.`);
   }
 
   function removeFromCart(item) {
@@ -55,7 +52,6 @@ export function CartProvider({ children }) {
           .filter(Boolean)
       );
     });
-    // toast.success(`${item.name} was removed from your shopping cart.`);
   }
 
   function getAnchorCoordinates() {
