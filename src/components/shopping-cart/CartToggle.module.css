@@ -1,0 +1,36 @@
+.button {
+  margin-left: auto;
+  z-index: 50;
+  cursor: pointer;
+}
+.button-inner-wrap {
+  pointer-events: none;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  color: white;
+  font-size: 0.875rem;
+}
+
+.image-badge-wrap {
+  position: relative;
+  pointer-events: none;
+}
+
+.image {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+  border: none;
+}
+
+.badge {
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 9999px;
+  background-color: #e60000;
+  bottom: -0.25rem;
+  left: -0.25rem;
+  font-size: 0.75rem;
+}

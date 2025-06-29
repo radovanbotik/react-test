@@ -1,0 +1,16 @@
+.mini-cart {
+  background-color: white;
+  width: 18rem;
+  color: black;
+  z-index: 50;
+  position: absolute;
+  border-radius: 0.125rem;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none !important;
+}

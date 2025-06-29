@@ -1,0 +1,10 @@
+.container > * + * {
+}
+.title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #1d1d39;
+}
+.decription {
+  font-size: 0.75rem;
+}

@@ -1,0 +1,29 @@
+.divider-wrapper {
+  position: relative;
+}
+
+.divider-line {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+}
+
+.divider-fill {
+  width: 100%;
+  border-top: 1px solid #d1d5db;
+}
+
+.divider-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.divider-text {
+  background-color: #ffffff;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.875rem; /* text-sm */
+  color: #6b7280; /* text-gray-500 */
+}

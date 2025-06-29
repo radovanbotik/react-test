@@ -1,0 +1,19 @@
+.container {
+  pointer-events: none;
+}
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #111827;
+}
+.divider {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.button {
+  width: 100%;
+  pointer-events: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+}

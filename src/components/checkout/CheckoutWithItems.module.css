@@ -1,0 +1,24 @@
+.list {
+  border-color: #e5e7eb;
+}
+.list > * + * {
+  border-top: 1px solid #e5e7eb;
+}
+.button {
+  width: 100%;
+  margin-top: 0.75rem;
+}
+.divider {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+.link {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: fit-content;
+}
+
+.link:hover {
+  color: #ef4444;
+}

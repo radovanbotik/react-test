@@ -1,0 +1,19 @@
+.list > * + * {
+  margin-top: 1rem;
+}
+.inner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.term {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #111827;
+}
+.definition {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #111827;
+}

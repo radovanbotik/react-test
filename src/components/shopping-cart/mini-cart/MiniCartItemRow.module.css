@@ -1,0 +1,30 @@
+.cell {
+  white-space: nowrap;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+.cell1 {
+  padding-left: 1rem;
+  padding-right: 0.75rem;
+}
+
+.cell2 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  text-align: right;
+}
+
+.cell3 {
+  padding-left: 0.75rem;
+  padding-right: 0;
+  text-align: right;
+}
+
+@media (media-width: 640px) {
+  .cell1 {
+    padding-left: 0;
+  }
+}

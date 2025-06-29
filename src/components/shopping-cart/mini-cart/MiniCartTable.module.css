@@ -1,0 +1,30 @@
+.header-cell {
+  padding-bottom: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #111827;
+}
+
+.header-cell-left {
+  padding-left: 1rem;
+  padding-right: 0.75rem;
+  text-align: left;
+}
+
+.header-cell-middle {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  text-align: right;
+}
+
+.header-cell-right {
+  padding-left: 0.75rem;
+  padding-right: 0;
+  text-align: right;
+}
+
+@media (min-width: 640px) {
+  .header-cell-left {
+    padding-left: 0;
+  }
+}

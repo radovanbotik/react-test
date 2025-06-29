@@ -1,0 +1,29 @@
+.logo {
+  position: static;
+  background-color: transparent;
+  font-size: 0.875rem;
+  padding: 0.75rem;
+  color: #ffffff;
+  transform: translate(0, 0) scale(1);
+}
+
+.logo:active:not(:disabled) {
+  transform: scale(0.95);
+}
+
+.logo:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+}
+
+@media (min-width: 640px) {
+  .logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .logo:active:not(:disabled) {
+    transform: translate(-50%, -50%) scale(0.95);
+  }
+}

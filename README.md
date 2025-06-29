@@ -1,33 +1,12 @@
-# Requirements for the React test
+# React + Vite
 
-- Please use JavaScript (and do not use TypeScript)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- Try to reproduce the given design. It does not have to be perfect, the design itself has minor mistakes too. If you spot any, feel free to make note of them (this is not required). 
+Currently, two official plugins are available:
 
-- Use React as a frontend system.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- Functional requirements:
-  - Create a listing page
-  - Hovering over the ? should show a bit if info (example on one of the screens)
-  - "Add to Cart" button should work and on every item
-  - Cart to display the amount of items in it, and it's total
-  - Cart should have an show/hide feature on click
+## Expanding the ESLint configuration
 
-- What is not required:
-  - Removing from the cart
-  - Checkout button (but if it leads to a different page its a plus)
-  - You can use your own assets/items, you don't have to use the give phone assets
-
-# Screens
-
-Listing page
-![Listing Page](screen-listing.jpg?raw=true)
-
-Listing page with info
-![Listing page with info](screen-with-info.jpg?raw=true)
-
-Listing page with cart having items
-![Listing Page](screen-cart.jpg?raw=true)
-
-Listing page with cart open
-![Listing Page](screen-cart-open.jpg?raw=true)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

@@ -1,0 +1,12 @@
+.card {
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.heading {
+  text-align: left;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+}
