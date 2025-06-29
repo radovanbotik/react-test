@@ -4,7 +4,7 @@ import classes from "./MiniCartTable.module.css";
 
 export function MiniCartTable({ cartItems }) {
   return (
-    <table className="min-w-full">
+    <table className={classes.table}>
       <thead>
         <tr>
           <th scope="col" className={clsx(classes["header-cell"], classes["header-cell-left"])}>
@@ -18,7 +18,7 @@ export function MiniCartTable({ cartItems }) {
           </th>
         </tr>
       </thead>
-      <tbody className="">
+      <tbody>
         {cartItems.map(item => (
           <MiniCartItemRow item={item} key={item.id} />
         ))}

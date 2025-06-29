@@ -6,25 +6,20 @@
   color: #9ca3af;
 }
 
-.cell1 {
-  padding-left: 1rem;
+.cell-left {
+  padding-left: 0rem;
   padding-right: 0.75rem;
+  text-align: left;
 }
 
-.cell2 {
+.cell-middle {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   text-align: right;
 }
 
-.cell3 {
+.cell-right {
   padding-left: 0.75rem;
   padding-right: 0;
   text-align: right;
-}
-
-@media (media-width: 640px) {
-  .cell1 {
-    padding-left: 0;
-  }
 }
