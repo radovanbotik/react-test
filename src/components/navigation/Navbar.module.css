@@ -1,5 +1,7 @@
-.container {
+.wrap {
   background-color: #233239;
+}
+.container {
   display: flex;
   width: 100%;
   position: relative;
