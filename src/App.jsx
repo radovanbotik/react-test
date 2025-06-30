@@ -25,6 +25,7 @@ function App() {
               ],
             },
             { path: "checkout", Component: Checkout },
+            { path: "*", Component: ErrorPage },
           ],
         },
       ],
